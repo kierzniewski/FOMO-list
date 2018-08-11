@@ -526,11 +526,9 @@ $("body").on("click", ".searchButton", (e)=>{
     e.preventDefault()
     let button = e.target;
     if($(button).parent().parent().find("ul").find("li").hasClass("foundItem")){
-        // $(button).attr("title", "Please Add or Cancel Found Items First");
-        // $(button).tooltip();
-        $( "#dialogSearch" ).dialog({
+        $( "#dialog" ).dialog({
+            autoOpen: true,
             height: 150,
-            // title: no
             dialogClass: "no-close",
             buttons: [
                 {
@@ -680,6 +678,7 @@ let ApiMovieKey = "&apikey=3cdc21c4";
 //tooltip
 $(".addButton").tooltip();
 $(".loupeIcon").tooltip();
+$( "#dialog" ).dialog({ autoOpen: false });
 
 
 

@@ -8,13 +8,6 @@
       "id": 1
     },
     {
-      "title": "Kanałi",
-      "author": "                 Andrzej Wajda      ",
-      "done": "false",
-      "recomended": "true",
-      "id": 2
-    },
-    {
       "title": "Niewinni Czarodzieje               \n                  \n                 \n                 \n                  \n                 \n                 ",
       "author": "                       Andrzej Wajda                       ",
       "done": "false",
@@ -27,13 +20,6 @@
       "done": "true",
       "recomended": "true",
       "id": 5
-    },
-    {
-      "title": "Star Wars Przebudzenie Mocy              ",
-      "author": "JJ Abrams              ",
-      "done": "false",
-      "recomended": "true",
-      "id": 7
     },
     {
       "title": "Człowiek z żelaza         ",
@@ -71,20 +57,6 @@
       "id": 14
     },
     {
-      "title": "Rambo      ",
-      "author": "Sylvester Stallone      ",
-      "done": "false",
-      "recomended": "true",
-      "id": 15
-    },
-    {
-      "title": "Matrix     ",
-      "author": "Siostry Wachowskie   ",
-      "done": "false",
-      "recomended": "true",
-      "id": 16
-    },
-    {
       "title": "Titanic  ",
       "author": "  James Cameron  ",
       "done": "true",
@@ -99,11 +71,25 @@
       "id": 18
     },
     {
-      "title": "Test ",
-      "author": " Chris Mason Johnson ",
+      "title": "Lost Highway ",
+      "author": " David Lynch ",
       "done": "false",
       "recomended": "true",
       "id": 19
+    },
+    {
+      "title": "Star Wars: Episode IV - A New Hope ",
+      "author": " George Lucas ",
+      "done": "false",
+      "recomended": "true",
+      "id": 20
+    },
+    {
+      "title": "Linia ",
+      "author": " Kazimierz Kutz ",
+      "done": "false",
+      "recomended": "true",
+      "id": 21
     }
   ],
   "book": [
@@ -150,13 +136,6 @@
       "id": 13
     },
     {
-      "title": "Lalka  ",
-      "author": "  Bolesław Prus  ",
-      "done": "false",
-      "recomended": "true",
-      "id": 14
-    },
-    {
       "title": "The Lord of the Rings  ",
       "author": "  J. R. R. Tolkien  ",
       "done": "true",
@@ -199,25 +178,11 @@
       "id": 20
     },
     {
-      "title": "Potop  ",
-      "author": "  Henryk Sienkiewicz  ",
-      "done": "false",
-      "recomended": "true",
-      "id": 21
-    },
-    {
       "title": "bdfhdfb ",
       "author": " fdbdfbdfb ",
       "done": "true",
       "recomended": "true",
       "id": 23
-    },
-    {
-      "title": "Pulp Fiction  ",
-      "author": "  Quentin Tarantino  ",
-      "done": "false",
-      "recomended": "true",
-      "id": 24
     },
     {
       "title": "Prawiek i inne czasy   \n                 \n                ",
@@ -241,21 +206,21 @@
       "id": 28
     },
     {
-      "title": "Lalka   \n                ",
-      "author": "   Bolesław Prus   ",
+      "title": "A wizard of Earthsea ",
+      "author": " Ursula K. Le Guin ",
       "done": "false",
       "recomended": "true",
       "id": 29
+    },
+    {
+      "title": "Miecz przeznaczenia ",
+      "author": " Andrzej Sapkowski ",
+      "done": "false",
+      "recomended": "true",
+      "id": 30
     }
   ],
   "album": [
-    {
-      "title": "Ray Of Light   \n                 \n                 \n                 \n                  \n                 \n                 \n                ",
-      "author": "          Madanna          ",
-      "done": "false",
-      "recomended": "true",
-      "id": 1
-    },
     {
       "title": "Let It Be   ",
       "author": "  The Beatles   ",
@@ -306,18 +271,25 @@
       "id": 12
     },
     {
-      "title": "Music ",
-      "author": " Madonna ",
-      "done": "true",
+      "title": "Abbey Road",
+      "author": "The Beatles",
+      "done": "false",
       "recomended": "true",
       "id": 13
     },
     {
-      "title": "Poczet królów polskich ",
-      "author": " T-raperzy z nad Wisły ",
-      "done": "true",
+      "title": "Nevermind",
+      "author": "Nirvana",
+      "done": "false",
       "recomended": "true",
       "id": 14
+    },
+    {
+      "title": "Heroes",
+      "author": "David Bowie",
+      "done": "false",
+      "recomended": "true",
+      "id": 15
     }
   ]
 }
