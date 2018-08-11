@@ -10,8 +10,8 @@ let addButtons = () => {
                     $(button).text("-");
                     $(button).parent().next().fadeIn("slow");
                     $(button).parent().next().find("label").eq(1).show();
-                    $(button).parent().next().find("#bookAuthor").show();
-                    $(button).parent().next().find("#bookAdd").removeClass("searchButton").text("Add");
+                    $(button).parent().next().find("input").eq(1).show();
+                    $(button).parent().next().find("button").removeClass("searchButton").text("Add");
                     // $(button).parent().next().css("display", "block");
                 } else {
                     $(button).text("+");
