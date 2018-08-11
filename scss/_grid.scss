@@ -1,0 +1,36 @@
+
+.grid-container{
+  width: 100%;
+  max-width: $grid-container-width;
+  margin: 0 auto;
+}
+
+.row{
+  @extend %clearfix;
+
+  [class*=col-]{
+    width: 100%;
+    float:left;
+    min-height: 1px;
+    @media(min-width: $grid-breakpoint){
+      width: 100% / $grid-columns;
+    }
+  }
+  @media (min-width: $grid-breakpoint){
+    @for $i from 1 through $grid-columns {
+      .col-#{$i}{
+        width: (100% / $grid-columns) * $i;
+      }
+    }
+  }
+}
+//
+//@mixin grid($cols, $mgn){ //$cols - liczba kolumn, $mgn - margin pomiędzy kolumnami
+//  float: left;
+//  width: ((100% - (($cols - 1) * $mgn)) / $cols );
+//  margin-right: $mgn;
+//  margin-bottom: $mgn;
+//  &:nth-child(#{$cols}n){
+//    margin-right: 0;
+//  }
+//}

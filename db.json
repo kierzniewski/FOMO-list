@@ -1,0 +1,323 @@
+{
+  "movie": [
+    {
+      "title": "American Beauty                                                                                                                                                                                                                                               ",
+      "author": "Sam Mendes               ",
+      "done": "false",
+      "recomended": "true",
+      "id": 1
+    },
+    {
+      "title": "Kanałi",
+      "author": "                 Andrzej Wajda      ",
+      "done": "false",
+      "recomended": "true",
+      "id": 2
+    },
+    {
+      "title": "Niewinni Czarodzieje               \n                  \n                 \n                 \n                  \n                 \n                 ",
+      "author": "                       Andrzej Wajda                       ",
+      "done": "false",
+      "recomended": "true",
+      "id": 3
+    },
+    {
+      "title": "Matrix         ",
+      "author": "         Wachowsky Sister         ",
+      "done": "true",
+      "recomended": "true",
+      "id": 5
+    },
+    {
+      "title": "Star Wars Przebudzenie Mocy              ",
+      "author": "JJ Abrams              ",
+      "done": "false",
+      "recomended": "true",
+      "id": 7
+    },
+    {
+      "title": "Człowiek z żelaza         ",
+      "author": "         Andrzej Wajda         ",
+      "done": "true",
+      "recomended": "true",
+      "id": 8
+    },
+    {
+      "title": "Faraon        ",
+      "author": "        Jerzy Kawalerowicz        ",
+      "done": "true",
+      "recomended": "true",
+      "id": 9
+    },
+    {
+      "title": "Powrót do przeszłości       ",
+      "author": "       Zemekis       ",
+      "done": "true",
+      "recomended": "true",
+      "id": 10
+    },
+    {
+      "title": "Pulp Fiction     ",
+      "author": " Quentin Tarantino     ",
+      "done": "false",
+      "recomended": "true",
+      "id": 11
+    },
+    {
+      "title": "Pulp Fiction   \n                 \n                 \n                 \n                 \n                 \n                ",
+      "author": "        Quentin Tarantino        ",
+      "done": "true",
+      "recomended": "true",
+      "id": 14
+    },
+    {
+      "title": "Rambo      ",
+      "author": "Sylvester Stallone      ",
+      "done": "false",
+      "recomended": "true",
+      "id": 15
+    },
+    {
+      "title": "Matrix     ",
+      "author": "Siostry Wachowskie   ",
+      "done": "false",
+      "recomended": "true",
+      "id": 16
+    },
+    {
+      "title": "Titanic  ",
+      "author": "  James Cameron  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 17
+    },
+    {
+      "title": "Skyfall ",
+      "author": " Sam Mendes ",
+      "done": "false",
+      "recomended": "true",
+      "id": 18
+    },
+    {
+      "title": "Test ",
+      "author": " Chris Mason Johnson ",
+      "done": "false",
+      "recomended": "true",
+      "id": 19
+    }
+  ],
+  "book": [
+    {
+      "title": "Lśnienie   \n                      \n                  \n                  \n                 \n                  \n                  \n                  ",
+      "author": "                    Stephen King                    ",
+      "done": "false",
+      "recomended": "true",
+      "id": 6
+    },
+    {
+      "title": "Dzieci z Bullerbyn     \n                  \n                 ",
+      "author": "        Astrid Lindgren        ",
+      "done": "true",
+      "recomended": "true",
+      "id": 9
+    },
+    {
+      "title": "Obcy   \n                   ",
+      "author": "      Albert Camus      ",
+      "done": "true",
+      "recomended": "true",
+      "id": 10
+    },
+    {
+      "title": "Pan Wołodyjowski ",
+      "author": " Henryk Sienkiewicz ",
+      "done": "true",
+      "recomended": "true",
+      "id": 11
+    },
+    {
+      "title": "Chłopi ",
+      "author": " Władysław Reymont ",
+      "done": "true",
+      "recomended": "true",
+      "id": 12
+    },
+    {
+      "title": "Faraon ",
+      "author": " Bolesław Prus ",
+      "done": "true",
+      "recomended": "true",
+      "id": 13
+    },
+    {
+      "title": "Lalka  ",
+      "author": "  Bolesław Prus  ",
+      "done": "false",
+      "recomended": "true",
+      "id": 14
+    },
+    {
+      "title": "The Lord of the Rings  ",
+      "author": "  J. R. R. Tolkien  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 15
+    },
+    {
+      "title": "Prawiek i inne czasy  ",
+      "author": "  Olga Tokarczuk  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 16
+    },
+    {
+      "title": "Lubiewo  ",
+      "author": "  Michał Witkowski  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 17
+    },
+    {
+      "title": "Wojna polsko-ruska  ",
+      "author": "  Dorota Masłowska  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 18
+    },
+    {
+      "title": "Lśnienie  ",
+      "author": "  Stephen King  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 19
+    },
+    {
+      "title": "Lubiewo  ",
+      "author": "  Michał Witkowski  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 20
+    },
+    {
+      "title": "Potop  ",
+      "author": "  Henryk Sienkiewicz  ",
+      "done": "false",
+      "recomended": "true",
+      "id": 21
+    },
+    {
+      "title": "bdfhdfb ",
+      "author": " fdbdfbdfb ",
+      "done": "true",
+      "recomended": "true",
+      "id": 23
+    },
+    {
+      "title": "Pulp Fiction  ",
+      "author": "  Quentin Tarantino  ",
+      "done": "false",
+      "recomended": "true",
+      "id": 24
+    },
+    {
+      "title": "Prawiek i inne czasy   \n                 \n                ",
+      "author": "    Olga Tokarczuk    ",
+      "done": "true",
+      "recomended": "true",
+      "id": 25
+    },
+    {
+      "title": "kkk ",
+      "author": " kkk ",
+      "done": "true",
+      "recomended": "true",
+      "id": 27
+    },
+    {
+      "title": "Lalka  \n                 \n                ",
+      "author": "   Bolesław Prus   ",
+      "done": "true",
+      "recomended": "true",
+      "id": 28
+    },
+    {
+      "title": "Lalka   \n                ",
+      "author": "   Bolesław Prus   ",
+      "done": "false",
+      "recomended": "true",
+      "id": 29
+    }
+  ],
+  "album": [
+    {
+      "title": "Ray Of Light   \n                 \n                 \n                 \n                  \n                 \n                 \n                ",
+      "author": "          Madanna          ",
+      "done": "false",
+      "recomended": "true",
+      "id": 1
+    },
+    {
+      "title": "Let It Be   ",
+      "author": "  The Beatles   ",
+      "done": "true",
+      "recomended": "true",
+      "id": 2
+    },
+    {
+      "title": "Anna Calvi ",
+      "author": "  Anna Calvi  ",
+      "done": "false",
+      "recomended": "true",
+      "id": 3
+    },
+    {
+      "title": "Zoll ",
+      "author": " Breakout ",
+      "done": "true",
+      "recomended": "true",
+      "id": 6
+    },
+    {
+      "title": "Miłość w czasach popkultury  ",
+      "author": "  Myslovitz  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 7
+    },
+    {
+      "title": "?   ",
+      "author": "   Hey  ",
+      "done": "true",
+      "recomended": "true",
+      "id": 10
+    },
+    {
+      "title": "Statues ",
+      "author": " Moloko ",
+      "done": "true",
+      "recomended": "true",
+      "id": 11
+    },
+    {
+      "title": "Fun For Me ",
+      "author": " Moloko ",
+      "done": "true",
+      "recomended": "true",
+      "id": 12
+    },
+    {
+      "title": "Music ",
+      "author": " Madonna ",
+      "done": "true",
+      "recomended": "true",
+      "id": 13
+    },
+    {
+      "title": "Poczet królów polskich ",
+      "author": " T-raperzy z nad Wisły ",
+      "done": "true",
+      "recomended": "true",
+      "id": 14
+    }
+  ]
+}

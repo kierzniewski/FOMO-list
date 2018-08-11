@@ -1,0 +1,239 @@
+//grid boxes
+body{
+  background-color: #E7EBEA;
+  //background-color: #5575ab;
+  //background-color: rgba(105,133,181,1);
+  background-image: url("../images/sharon-mccutcheon-532782-unsplash.jpg");
+  background-size: cover;
+  //background-color: rgba(85,117,171,1);
+  font-family: 'Ubuntu', sans-serif;
+}
+.box-header{
+  height: 50px;
+  margin-bottom: 15px;
+  h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    //font-weight: bold;
+    font-family: 'KG Second Chances Sketch', 'Ubuntu', sans-serif;
+    //color: whitesmoke;
+  }
+}
+.grid-container{
+  .box-container-middle{
+    @extend %box;
+    p {
+      @extend %list-elements
+    }
+    ul{
+      min-height: 30px;
+    }
+  }
+  .box2-container-middle{
+    @extend %box;
+    min-height: 100px;
+    p {
+      @extend %list-elements
+    }
+    ul{
+      min-height: 30px;
+    }
+  }
+
+  .box-container-right{
+    @extend %box;
+    p {
+      @extend %list-elements
+    }
+    ul{
+      min-height: 30px;
+    }
+    //height: 500px;
+  }
+  .box2-container-right{
+    @extend %box;
+    p {
+      @extend %list-elements
+    }
+    ul{
+      min-height: 30px;
+    }
+  }
+
+  .box-container-left{
+    @extend %box;
+    p {
+      @extend %list-elements
+    }
+    ul{
+      min-height: 30px;
+    }
+    //height: 500px;
+  }
+  .box2-container-left{
+    @extend %box;
+    min-height: 100px;
+    p {
+      @extend %list-elements
+    }
+    ul{
+      min-height: 30px;
+    }
+  }
+  .box-footer{
+    @extend %box;
+    height: 50px;
+  }
+}
+
+.box-footer{
+  @extend %box;
+  height: 50px;
+}
+//head-list
+h2{
+  min-height: 1px;
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  .addButton{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: gainsboro;
+    color: black;
+    float: right;
+    padding: 0 20px 20px 0;
+    //opacity: 0.6;
+    position: relative;
+    top: -7px;
+    &:hover{
+      color: grey;
+      //opacity: 1;
+    }
+  }
+}
+//list
+.box-little{
+  @extend  %box-little;
+  @media (min-width: $grid-breakpoint){
+    &:hover {
+      background-color: gainsboro;
+      cursor: grab;
+    }
+
+  }
+  //height: 10px;
+}
+.foundItem{
+  border: 5px solid darkred;
+}
+.noFoundItem{
+  border: 3px solid darkred;
+  color: darkred;
+}
+
+
+.titleButton{
+  @extend %buttonsToEdit;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.authorButton{
+  @extend %buttonsToEdit;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.titleParagraph{
+  font-style: italic;
+}
+
+.editButton, .cancelButton, .completeButton, .cancelFoundItemButton, .addFoundItemButton{
+  @extend %buttons;
+}
+//form styles
+form{
+  display: none;
+  margin-top: 10px;
+  label{
+    font-size: 15px;
+  }
+  input{
+    border-radius: 20px;
+    width: 75%;
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+    background-color: #E7EBEA;
+  }
+}
+
+input{
+  display: block;
+}
+
+
+#bookAdd, #movieAdd, #albumAdd, .searchButton {
+  display: block;
+  @extend %buttons;
+}
+
+
+.loupeIcon{
+  //display: block;
+  margin-right: 5px;
+  float:right;
+  height: 15px;
+  width: 15px;
+  background-image: url("../images/icons8-search-26.png");
+  background-size: cover;
+  //border: 1px solid white;
+  cursor: pointer;
+  position: relative;
+  top: -2px;
+  &:hover{
+    opacity: 0.5;
+  }
+}
+
+.ui-tooltip {
+  padding: 5px 10px;
+  color: whitesmoke;
+  background-color: #2b2b2b;
+  border-radius: 15px;
+  font: 14px "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  box-shadow: 0 0 7px #2b2b2b;
+  opacity: 0.9;
+}
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.ui-dialog{
+  border-radius: 15px;
+  font: 14px "Ubuntu", sans-serif;
+  box-shadow: 0 0 7px #2b2b2b;
+  font-size: 15px;
+  text-transform: uppercase;
+
+}
+
+.ui-dialog-buttonpane{
+  //@extend %buttons;
+}
+.ui-dialog-buttonset{
+  //@extend %buttons;
+}
+.footer{
+  margin-top: 10px;
+  float: left;
+}
