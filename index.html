@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>FOMO List</title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+<body>
+<!-- HEADER -->
+<header>
+    <div class="grid-container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-9 box box-header">
+                <h1>MY FOMO LIST</h1>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</header>
+<!-- MAIN -->
+<section>
+    <div class="grid-container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3 box box-container-left">
+                <h2>To Read <button class="addButton" title="Add">+</button><span class="loupeIcon" title="Search"></span> </h2>
+
+                <form class="bookForm">
+                    <label>Book</label>
+                    <input type="text" id="bookTitle" name="bookTitle" placeholder="Book Title">
+                    <label>Author</label>
+                    <input type="text" id="bookAuthor" name="bookAuthor" placeholder="Book's Author">
+                    <button id="bookAdd">Add</button>
+                    <div id="dialogSearch" title="Can't you search new item?">
+                        <p>Please First Add or Cancel Found Item</p>
+                    </div>
+                </form>
+                <ul class="book-list"></ul>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3 box box-container-middle">
+                <h2>To Watch <button class="addButton" title="Add">+</button><span class="loupeIcon" title="Search"></span></h2>
+                <form class="movieForm">
+                    <label>Movie</label>
+                    <input type="text" id="movieTitle" name="movieTitle" placeholder="Movie Title">
+                    <label>Director</label>
+                    <input type="text" id="movieDirector" name="movieDirector" placeholder="Movie's Director">
+                    <button id="movieAdd">Add</button>
+                </form>
+                <ul class="movie-list"></ul>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3 box box-container-right">
+                <h2>To Listen to <button class="addButton" title="Add">+</button></h2>
+                <form class="formAlbum">
+                    <label>Album</label>
+                    <input type="text" id="albumTitle" name="albumTitle" placeholder="Album Title">
+                    <label>Artist</label>
+                    <input type="text" id="albumArtist" name="albumArtist" placeholder="Album's Artist">
+                    <button id="albumAdd">Add</button>
+                </form>
+                <ul class="album-list"></ul>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="grid-container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-9 box box-header">
+                <h1>MY COLLECTION</h1>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="grid-container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3 box box2-container-left">
+                <h2>Books </h2>
+                <ul class="books-list-finished dropped"></ul>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3 box box2-container-middle">
+                <h2>Movies </h2>
+                <ul class="movie-list-finished dropped"></ul>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3 box box2-container-right">
+                <h2>Albums </h2>
+                <ul class="album-list-finished dropped"></ul>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER -->
+<footer>
+    <span class="loupeIcon">Paweł Kierzniewski 2018</span>
+    <!--<div class="grid-container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-1"></div>-->
+            <!--<div class="col-11 box box-footer"></div>-->
+            <!--<div class="col-1"></div>-->
+        <!--</div>-->
+    <!--</div>-->
+</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
